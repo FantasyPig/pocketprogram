@@ -1,22 +1,19 @@
 package leetcode;
 
-public class TreeNode<T> {
+import sun.reflect.generics.tree.Tree;
 
-    T data;
+public class TreeNode <T>{
     TreeNode left;
     TreeNode right;
+    T value;
 
-    TreeNode(T data){
-        this.data = data;
+    public TreeNode(T value) {
+        this.value = value;
     }
 
-    TreeNode(T data, TreeNode left, TreeNode right){
-        this.data = data;
+    public TreeNode( T value, TreeNode left, TreeNode right) {
         this.left = left;
         this.right = right;
-    }
-
-    TreeNode(){
-
+        this.value = value;
     }
 }
