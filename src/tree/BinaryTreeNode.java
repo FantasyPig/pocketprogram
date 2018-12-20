@@ -2,9 +2,12 @@ package tree;
 
 public class BinaryTreeNode {
 
-    BinaryTreeNode left;
-    BinaryTreeNode right;
-    int value;
+    public BinaryTreeNode left;
+    public BinaryTreeNode right;
+    public int value;
+
+    public BinaryTreeNode() {
+    }
 
     public BinaryTreeNode(int value) {
         this.value = value;
