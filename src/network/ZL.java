@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 /**
- * a socket application written for my roommates' class design
+ * a socket application written for my roommates' subject design
  */
 public class ZL {
 
